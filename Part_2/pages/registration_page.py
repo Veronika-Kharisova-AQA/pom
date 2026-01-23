@@ -85,7 +85,7 @@ class RegistrationPage:
         results.should(have.text(user.email))
         results.should(have.text(user.gender))
         results.should(have.text(user.phone))
-        results.should(have.text(f'{user.birth_day} {user.birth_month} {user.birth_year}'))
+        results.should(have.text(f'{user.birth_day} {user.birth_month},{user.birth_year}'))
         results.should(have.text(user.subject))
         results.should(have.text(user.hobby))
         results.should(have.text(user.picture))
