@@ -106,7 +106,7 @@ class RegistrationPage:
             .fill_subject(user.subject)
             .choose_hobby(user.hobby)
             .upload_picture(user.picture)
-            .fill_address(user.assress)
+            .fill_address(user.address)
             .select_state(user.state)
             .select_city(user.city)
             .submit()
